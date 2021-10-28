@@ -13,4 +13,4 @@ EA Lot_management_for_currency_v01.ex4
 + ratio_loss: Tỉ lệ lỗ so với lợi nhuận. Ví dụ nếu giá trị là 100, nghĩa là lỗ và lời sẽ bằng nhau, khi đó độ dài TP và SL bằng nhau.
 + limit_order_each_pair: Số lệnh tối đa được phép mở cho 1 cặp tiền. Nếu số lệnh đã đạt giới hạng, thì nút "SellMarket" và "BuyMarket" không còn tác dụng
 + limit_order_check: Nếu biến này = true, thì limit_order_each_pair mới có hiệu lực.
-+ lengh_of_takeprofit: Mặc định là TP = 1.5*(điểm vào lệnh +/- H4 MA200 or H4 BoligerBand). Số này càng cao, thì số lot sẽ càng nhỏ và rủi ro càng nhỏ
++ lengh_of_takeprofit: Mặc định là TP = 1.5*(điểm vào lệnh +/- khung giờ H4 MA200 or H4 BolingerBand). Số này càng cao, thì số lot sẽ càng nhỏ và rủi ro càng nhỏ
