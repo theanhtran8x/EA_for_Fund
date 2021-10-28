@@ -1,5 +1,5 @@
 EA Lot_management_for_currency_v01.ex4
-- Chức năng: Dùng cho quản lý số lệnh, quản lý tổng số lot và tự động tính số lot, tự động tính điểm TP/SL
+- Chức năng: Dùng cho quản lý số lệnh, quản lý tổng số lot và tự động tính số lot, tự động tính điểm TP/SL và đóng tất cả lệnh đang mở
 - Khuyến cáo khi sử dụng: 
   + Sử dụng trên MT4 và cho các cặp tiền tệ (không đúng khi sử dụng cho tiền ảo, vàng, dầu, chỉ số, chứng khoán)
   + Số tiền càng nhỏ và số percent_default càng nhỏ, thì EA sẽ không chính xác. Vì số lot tối thiểu luôn luôn là 0.01 lot, nên số tiền nhỏ thì rủi ro sẽ cao.
