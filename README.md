@@ -1,4 +1,4 @@
-EA Lot_management_for_currency_v01.ex4
+Lot_management_for_currency_v01.ex4
 - Chức năng: Dùng cho quản lý số lệnh, quản lý tổng số lot và tự động tính số lot, tự động tính điểm TP/SL và đóng tất cả lệnh đang mở
 - Khuyến cáo khi sử dụng: 
   + Sử dụng trên MT4 và cho các cặp tiền tệ (không đúng khi sử dụng cho tiền ảo, vàng, dầu, chỉ số, chứng khoán)
@@ -8,9 +8,9 @@ EA Lot_management_for_currency_v01.ex4
 
 - Các biến quan trọng:
 + percent_default: Phần trăm lợi nhuận mong đợi của 1 lệnh. Mặc định là 1%
-+ limit_lot_number: Tổng số lot tối đa được phép mở. Nếu tổng số lot đã đạt giới hạng, thì nút "SellMarket" và "BuyMarket" không còn tác dụng
++ limit_lot_number: Tổng số lot tối đa được phép mở. Nếu tổng số lot đã đạt giới hạn, thì nút "SellMarket" và "BuyMarket" không còn tác dụng
 + limit_lot_check: Nếu biến này = true, thì limit_lot_number mới có hiệu lực.
 + ratio_loss: Tỉ lệ lỗ so với lợi nhuận. Ví dụ nếu giá trị là 100, nghĩa là lỗ và lời sẽ bằng nhau, khi đó độ dài TP và SL bằng nhau.
-+ limit_order_each_pair: Số lệnh tối đa được phép mở cho 1 cặp tiền. Nếu số lệnh đã đạt giới hạng, thì nút "SellMarket" và "BuyMarket" không còn tác dụng
++ limit_order_each_pair: Số lệnh tối đa được phép mở cho 1 cặp tiền. Nếu số lệnh đã đạt giới hạn, thì nút "SellMarket" và "BuyMarket" không còn tác dụng
 + limit_order_check: Nếu biến này = true, thì limit_order_each_pair mới có hiệu lực.
 + lengh_of_takeprofit: Mặc định là TP = 1.5*(điểm vào lệnh +/- khung giờ H4 MA200 or H4 BolingerBand). Số này càng cao, thì số lot sẽ càng nhỏ và rủi ro càng nhỏ
