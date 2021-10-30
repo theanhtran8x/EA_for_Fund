@@ -2,7 +2,7 @@ Lot_management_for_currency_v02.ex4
 - Chức năng: Dùng cho quản lý số lệnh, quản lý tổng số lot và tự động tính số lot, tự động tính điểm TP/SL và đóng tất cả lệnh đang mở
 - Khuyến cáo khi sử dụng: 
    - Sử dụng trên MT4 và cho các cặp tiền tệ, vàng bạc (không đúng khi sử dụng cho tiền ảo, dầu, chỉ số, chứng khoán)
-   - Số tiền càng nhỏ và số percent_profit càng nhỏ, thì EA sẽ không chính xác. Vì số lot tối thiểu luôn luôn là 0.01 lot, nên số tiền nhỏ thì rủi ro sẽ cao.
+   - Số tiền càng nhỏ và số percent_profit càng nhỏ, thì EA sẽ tính số lot không chính xác. Vì số lot tối thiểu luôn luôn là 0.01 lot, nên số tiền nhỏ thì rủi ro sẽ cao.
 - Nút "SellMarket" và "BuyMarket" là dùng để sell/buy ngay lập tức tại giá hiện tại
 - Nút "CloseAll" dùng để đóng tất cả các lệnh đang mở của 1 cặp tiền
 
