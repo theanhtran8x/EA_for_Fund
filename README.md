@@ -18,4 +18,4 @@ Lot_management_for_currency_v02.ex4
    - fix_pips_enable: Mở tính năng take profit theo pips. Nếu biến này bằng true, thì fix_pips_takeprofit mới có hiệu lực và lengh_of_takeprofit_H4 không có ý nghĩa
 
 
-Lưu ý: Test trước khi sử dụng
+Lưu ý: Nêm kiểm tra lại và so sánh với kết quả trên https://www.cashbackforex.com/vi/tools/position-size-calculator
