@@ -16,3 +16,6 @@ Lot_management_for_currency_v02.ex4
    - lengh_of_takeprofit_H4: Mặc định là TP = 1.5*(điểm vào lệnh +/- khung giờ H4 MA200 or H4 BolingerBand). Số này càng cao, thì số lot sẽ càng nhỏ và rủi ro càng nhỏ
    - fix_pips_takeprofit: Giá trị takeprofit theo pips. Mặt định là 200 pips. Số này càng cao, thì số lot sẽ càng nhỏ và rủi ro càng nhỏ
    - fix_pips_enable: Mở tính năng take profit theo pips. Nếu biến này bằng true, thì fix_pips_takeprofit mới có hiệu lực và lengh_of_takeprofit_H4 không có ý nghĩa
+
+
+Lưu ý: Test trước khi sử dụng
