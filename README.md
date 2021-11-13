@@ -18,6 +18,7 @@ Lot_management_for_currency_v02.ex4=========================
    
 Lot_management_for_currency_v04.ex4=========================
 - Thêm vào nút "SellLimit" và "BuyLimit"
+- Thêm tính số lot cho dầu USOIL, UKOIL
 
 
 Lưu ý: Nêm kiểm tra lại và so sánh với kết quả trên https://www.cashbackforex.com/vi/tools/position-size-calculator
