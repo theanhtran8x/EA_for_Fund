@@ -21,4 +21,4 @@ Lot_management_v04.ex4=========================
 Lưu ý: 
 - Nên kiểm tra lại và so sánh với kết quả trên https://www.cashbackforex.com/vi/tools/position-size-calculator
 - Nếu có phát hiện lỗi thì xin vui lòng gửi thông báo về anhtrader113@gmail.com
-- Phần mền hoàn toàn miễn phí.
+- EA hoàn toàn miễn phí.
